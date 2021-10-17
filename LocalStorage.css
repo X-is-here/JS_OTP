@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(26, 25, 25);
+}
+
+.commentInputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.btn{
+    user-select: none;
+}
+
+.commentInput {
+    max-width: 750px;
+    user-select: none;
+}
+
+.comment{
+    font-size: 20px;
+    font-style: oblique;
+    background-color: darkgrey;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 0px;
+    margin: 2px 0px;
+    border-radius: 5px;
+}
+
+.commentContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

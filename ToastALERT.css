@@ -1,0 +1,27 @@
+body {
+    background-color: blanchedalmond;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.parent {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 0px;
+    justify-content: center;
+}
+
+.toastAlert {
+    background-color: rgb(235, 66, 94);
+    position: relative;
+    padding: 3px 10px;
+    transition: bottom 1s ease-in-out;
+}
